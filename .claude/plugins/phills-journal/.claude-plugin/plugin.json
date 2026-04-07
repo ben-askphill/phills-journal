@@ -1,0 +1,9 @@
+{
+  "name": "phills-journal",
+  "description": "Write and publish new editions of Phill's Journal, the Ask Phill ecommerce newsletter covering Shopify updates, AI features, app integrations, and merchant-focused insights",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ask Phill",
+    "email": "tijs@askphill.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "journal-cover",
+  "description": "Creates a new Phill's Journal cover image and sets it as the Notion page cover. Generates PNG covers in code, uploads to catbox.moe, and updates Notion.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ask Phill",
+    "email": "tijs@askphill.com"
+  }
+}
