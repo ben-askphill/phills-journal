@@ -105,7 +105,8 @@ These are the core rules that define the voice of the journal. Study the example
 - Do NOT repeat the topic title in the body text
 - Do NOT use passive voice if active works
 - Do NOT use corporate jargon ("leverage", "utilize", "seamlessly")
-- Keep opinions grounded — back them up with a reason
+- Do NOT use em dashes (—) or double dashes (--). Use commas, semicolons, colons, or separate sentences instead
+- Keep opinions grounded, and back them up with a reason
 
 ---
 

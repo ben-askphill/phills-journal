@@ -97,3 +97,11 @@ After publishing, report:
 ## Writing Rules
 
 Read `references/phills-journal-handover.md` before writing any edition. It contains the complete rules for writing voice, tone, page structure, emoji usage, topic selection, source handling, and the pre-publish checklist. Follow it exactly.
+
+### Link handling
+
+When linking to the Shopify changelog or any other external URL, always use Notion **bookmark blocks** — never inline hyperlinks. This applies to source links, references, and any external link embedded in the page content.
+
+### Punctuation
+
+Never use em dashes (—) or double dashes (--) in any written content. Use commas, semicolons, colons, or separate sentences instead.
