@@ -10,7 +10,7 @@ A newsletter published every few weeks as a Notion page. Each edition covers 4-8
 
 ## How it works
 
-The newsletter is produced end-to-end using two Claude Code skills from the `ask-phill-tools` plugin:
+The newsletter is produced end-to-end using two local Claude Code skills (in `.claude/plugins/`):
 
 ### `/phills-journal` skill
 
@@ -24,15 +24,14 @@ Handles the full writing and publishing workflow:
 
 Generates a cover image for each edition:
 
-1. Duplicates the master cover template in Figma (Brand Guidelines file, Journal page)
-2. Updates the headline text with intelligent two-line splitting
-3. Places the new cover below existing covers on the Journal page
+1. Generates a PNG cover in code using the bundled background image and Inter Bold font
+2. Splits the title text across 1-2 lines with intelligent line-break logic
+3. Uploads the cover to catbox.moe and sets it as the Notion page cover
 
 ## Setup
 
-- `NOTION_API_KEY` — required for publishing to Notion
-- `FIGMA_ACCESS_TOKEN` — required for cover image generation (configured via `.mcp.json`)
-- Both skills are installed from the `ask-phill-tools` marketplace plugin
+- `NOTION_API_KEY` — required for publishing to Notion (stored in `.claude/plugins/phills-journal/.env`)
+- Both skills live locally in `.claude/plugins/` within this repo
 
 ## Usage
 
