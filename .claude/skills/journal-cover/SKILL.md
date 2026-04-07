@@ -1,5 +1,5 @@
 ---
-name: native-cover-maker
+name: journal-cover
 description: Creates a new Phill's Journal cover image and sets it as the Notion page cover. Use this skill whenever anyone suggests a new article title and needs a matching cover image, thumbnail, hero image, or blog header — even if they just say "make a cover for X", "create an image for this post", or "I need a header for this article". Generates the cover as a PNG entirely in code (no Figma required), uploads it to catbox.moe for hosting, and sets it as the cover photo on the relevant Notion page.
 ---
 

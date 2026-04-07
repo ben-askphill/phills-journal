@@ -21,10 +21,10 @@ description: >
 
 ## Setup
 
-This skill uses the Notion API directly via `curl`. The API key is stored in `.env` in the plugin root (`${CLAUDE_PLUGIN_ROOT}/.env`). Source it before making API calls:
+This skill uses the Notion API directly via `curl`. The API key is stored in `.env` in the skill directory (`.claude/skills/phills-journal/.env`). Source it before making API calls:
 
 ```bash
-source "${CLAUDE_PLUGIN_ROOT}/.env"
+source ".claude/skills/phills-journal/.env"
 ```
 
 The Phill's Journal Notion database ID is defined in `references/notion-api.md`.
