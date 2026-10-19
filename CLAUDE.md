@@ -40,3 +40,12 @@ Generates a cover image for each edition:
 "Create a journal edition about Shopify's latest updates"
 "Create a Journal cover for 'AI Tools & Shopify'"
 ```
+
+## Unslop every message (always on)
+
+Before you send any message to Ben, run the `unslop` skill on it. This applies to every model and agent working in this repo: Claude, Codex, Cursor, Gemini and any other.
+
+- Claude Code: invoke `/unslop` (`.claude/skills/unslop/SKILL.md`).
+- Other agents: read `.agents/skills/unslop/SKILL.md` and apply its rules.
+- Scope: chat replies, summaries, plans, PR descriptions and any prose written for Ben. Leave code, command output and quoted text unchanged.
+- Run the pass silently. Send only the cleaned text, not a before/after or a list of fixes.
